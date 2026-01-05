@@ -87,7 +87,7 @@ install_python_packages() {
     print_info "安装 Python 依赖包..."
     
     # 升级 pip
-    pip install --upgrade pip --break-system-packages
+    #pip install --upgrade pip --break-system-packages
     
     # 安装依赖
     pip install pillow openai requests --break-system-packages
